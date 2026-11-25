@@ -1,0 +1,8 @@
+# === File: commerce_etl/config.py ===
+CURRENCY_RATES = {"VND": 1, "USD": 25000, "SGD": 18500}
+
+BLACKLIST_USERS = {"USR_99", "USR_88"}
+
+VALID_STATUSES = {"SUCCESS", "COMPLETED"}
+
+VIP_THRESHOLD = 1000000
